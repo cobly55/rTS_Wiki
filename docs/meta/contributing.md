@@ -125,19 +125,28 @@ To add a custom image, place your image in `/assets/<page-name>/<image.png>`, an
 
 Applications you have installed, *regardless of which drive you have installed it on*, **will not carry over** the next time you clean install Windows, even if it is on a different hard drive to your Windows drive. [(source)](/docs/learning/multiple-disks)
 
-### Warnings
+### Callouts
+#### Warnings
 
 Warnings like:
 
-> ❗ It is very important that you remember to **power-off the motherboard** and switch-off and unplug the PSU after each component test. Do this before you remove or install anything. [(source)](/docs/factoids/breadboarding.md)
+{: .warning .warning-icon }
+> It is very important that you remember to **power-off the motherboard** and switch-off and unplug the PSU after each component test. Do this before you remove or install anything. [(source)](/docs/factoids/breadboarding.md)
 
 are just blockquotes in markdown.
 
 ```
-> ❗ It is very important that you remember to **power-off the motherboard** and switch-off and unplug the PSU after each component test. Do this before you remove or install anything.
+{: .warning .warning-icon }
+> It is very important that you remember to **power-off the motherboard** and switch-off and unplug the PSU after each component test. Do this before you remove or install anything.
 ```
 
 To let the user know that it IS a warning, add the ❗ emoji to the beginning.
+
+#### Information
+
+{: .info .info-icon }
+> Info block<br/>
+> Use `{: .info .info-icon }` for info blocks
 
 ### Hyperlinks
 
