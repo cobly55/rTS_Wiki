@@ -12,7 +12,7 @@ last_modified_date: 2025-10-20
 
 
 ## Full Support:
-* Non-EOL, consumer versions of Windows 10/11 only:
+* Non-EOL, consumer versions of Windows 11 only:
     * Home
     * Pro
     * Pro for Workstations
